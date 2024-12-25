@@ -1,5 +1,24 @@
 accessWidener v2 named
 
-extendable class net/minecraft/client/util/Window
-accessible method net/minecraft/client/util/Window throwOnGlError ()V
-accessible field net/minecraft/client/util/Window handle J
+accessible field com/mojang/blaze3d/platform/GlStateManager$Viewport x I
+accessible field com/mojang/blaze3d/platform/GlStateManager$Viewport y I
+accessible field com/mojang/blaze3d/platform/GlStateManager$Viewport width I
+accessible field com/mojang/blaze3d/platform/GlStateManager$Viewport height I
+accessible class com/mojang/blaze3d/platform/GlStateManager$BlendFuncState
+accessible class com/mojang/blaze3d/platform/GlStateManager$DepthTestState
+accessible class com/mojang/blaze3d/platform/GlStateManager$CullFaceState
+accessible class com/mojang/blaze3d/platform/GlStateManager$PolygonOffsetState
+accessible class com/mojang/blaze3d/platform/GlStateManager$LogicOpState
+accessible class com/mojang/blaze3d/platform/GlStateManager$StencilState
+accessible class com/mojang/blaze3d/platform/GlStateManager$ScissorTestState
+accessible class com/mojang/blaze3d/platform/GlStateManager$FramebufferState
+accessible class com/mojang/blaze3d/platform/GlStateManager$Texture2DState
+accessible class com/mojang/blaze3d/platform/GlStateManager$ColorMask
+accessible field com/mojang/blaze3d/platform/GlStateManager$ScissorTestState capState Lcom/mojang/blaze3d/platform/GlStateManager$CapabilityTracker;
+accessible method com/mojang/blaze3d/platform/GlStateManager$CapabilityTracker disable ()V
+accessible method com/mojang/blaze3d/platform/GlStateManager$CapabilityTracker enable ()V
+accessible field com/mojang/blaze3d/platform/GlStateManager$StencilSubState func I
+accessible field com/mojang/blaze3d/platform/GlStateManager$StencilSubState ref I
+accessible field com/mojang/blaze3d/platform/GlStateManager$StencilSubState mask I
+accessible class net/minecraft/client/gl/WindowFramebuffer$Size
+accessible method net/minecraft/client/gl/Framebuffer setTexFilter (IZ)V
